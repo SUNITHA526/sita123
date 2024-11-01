@@ -1,0 +1,20 @@
+ul{
+    background-color: skyblue;
+    list-style-type: numbers;
+    
+}
+[data-available="true"]{
+background-color: green;
+}
+[data-available="false"]{
+    background-color: red;
+}
+[data-category="Electronics"]{
+    list-style-type: upper-alpha;
+}
+[data-price="low"]{
+    font-weight: bold;
+}
+li{
+    margin-top: 10px;
+}
